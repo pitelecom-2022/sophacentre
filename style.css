@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Open+Sans&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+
+body { 
+	font-family: lato, 'Open Sans', calibri
+}
+
+.footer {
+        position: fixed;
+        bottom:5px;
+        left: 50%;
+        transform: translateX(-50%);
+}
+
+a {
+	text-decoration: none
+}
+
+.reclamation_details {
+	/*margin-top:50px*/
+}
+.field {
+	display: grid;
+	grid-template-columns: 1fr 1fr;	
+	margin-bottom:15px;
+}
+.field:nth-child(2n+1){
+	background-color:#f2f2f2;
+}
+.field>div:nth-child(2) {
+	text-align:right;
+}
+
+.pagination {
+	width:30%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.feedback {
+	height:100vh;
+	display: flex;
+	width:80%;
+}
+
+.feedback>div {
+	margin:auto;
+}
+.kpis {
+	display: flex;
+	gap:50px;
+	/*flex-wrap:wrap;*/
+	margin: auto;
+	width: 80%;
+	max-width: 960px;
+}
+
+.kpi {
+	background-color: #f1f1f1;
+	text-align: center;
+	padding: 20px;
+}
+
+.kpi_designation {
+	font-size: 20px;
+	text-align: center;
+}
+
+.kpi_value {
+	font-size: xx-large;
+}
+
+.kpis>* {
+	flex: 1;
+}
+
+.filter{
+display: flex;
+justify-content: space-around;
+gap:25px;
+}
+
+.search-reclamations-time-range {
+	width:25%;
+	margin:auto;
+}
+
+.filter>* {
+flex:1
+}

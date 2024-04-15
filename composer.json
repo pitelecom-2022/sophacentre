@@ -1,0 +1,5 @@
+{
+    "require": {
+        "ofbeaton/phpami": "^1.1"
+    }
+}

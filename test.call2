@@ -1,0 +1,10 @@
+Channel: SIP/100
+Callerid: 212613227885
+WaitTime: 20
+MaxRetries: 2
+RetryTime: 10
+Archive: yes
+
+Context: trunkinbound
+Extension: 5400
+SetVar: closecallid=7
